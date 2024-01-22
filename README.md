@@ -1,6 +1,6 @@
 plnepsmiss: run nepsmiss in parallel
 ======================================================================
-nepsmiss is a highly relevant tool to automatically code missing values in Stata for all NEPS starting cohorts. However, the program can be slow as only a single thread is used. plnepsmiss parallizes the process and speeds computational times up manyfold.
+_nepsmiss_ is a highly relevant tool to automatically code missing values in Stata for all NEPS starting cohorts. However, the program can be slow as only a single thread is used. _plnepsmiss_ parallelizes the process and speeds computational times up manyfold.
 
 Installation
 ============
@@ -29,7 +29,7 @@ plnepsmiss, threads(3) nepsmissoptions(reverse)
 
 Benchmarking
 ========
-To test how much gains can be expected by plnepsmiss, a simple benchmark has been conducted (total of 15 simulations). Median times in seconds are computed for using a single thread (standard nepsmiss) and plnepsmiss (2 or more threads).
+To test how much gains can be expected by _plnepsmiss_, a simple benchmark has been conducted (total of 15 simulations). Median times in seconds are computed for using a single thread (standard _nepsmiss_) and _plnepsmiss_ (2 or more threads).
 The results indicate that massive gains are possible by parallelization.
 ![Benchmark](benchmark.png "Benchmark results")
 
