@@ -6,7 +6,7 @@ Installation
 ============
 
 ``` stata
-. net install dbs, from(https://raw.github.com/fbittmann/plnepsmiss/stable) replace
+. net install plnepsmiss, from(https://raw.github.com/fbittmann/plnepsmiss/stable) replace
 ```
 Note that the packages [parallel](https://github.com/gvegayon/parallel) and [nepstools](https://www.neps-data.de/Data-Center/Overview-and-Assistance/Stata-Tools) are required!
 
