@@ -1,0 +1,9 @@
+v 3
+d plnepsmiss: command to run nepsmiss in parallel
+d 
+d Author: Felix Bittmann, LifBi Bamberg, felix.bittmann@lifbi.de
+d
+d Distribution-Date: 20242201
+f plnepsmiss.ado
+f plnepsmiss.sthlp
+f plnepsmiss_helpertool.ado
